@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\New\\Documents\\HostelMaintenanceAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA8B28A7-44A8-C9F0-B918-0A93B0455F41}|HostelMaintenanceAPI.csproj|c:\\users\\new\\documents\\hostelmaintenanceapi\\migrations\\20250510051921_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA8B28A7-44A8-C9F0-B918-0A93B0455F41}|HostelMaintenanceAPI.csproj|solutionrelative:migrations\\20250510051921_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA8B28A7-44A8-C9F0-B918-0A93B0455F41}|HostelMaintenanceAPI.csproj|c:\\users\\new\\documents\\hostelmaintenanceapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA8B28A7-44A8-C9F0-B918-0A93B0455F41}|HostelMaintenanceAPI.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA8B28A7-44A8-C9F0-B918-0A93B0455F41}|HostelMaintenanceAPI.csproj|c:\\users\\new\\documents\\hostelmaintenanceapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA8B28A7-44A8-C9F0-B918-0A93B0455F41}|HostelMaintenanceAPI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA8B28A7-44A8-C9F0-B918-0A93B0455F41}|HostelMaintenanceAPI.csproj|c:\\users\\new\\documents\\hostelmaintenanceapi\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA8B28A7-44A8-C9F0-B918-0A93B0455F41}|HostelMaintenanceAPI.csproj|solutionrelative:models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA8B28A7-44A8-C9F0-B918-0A93B0455F41}|HostelMaintenanceAPI.csproj|c:\\users\\new\\documents\\hostelmaintenanceapi\\models\\maintenancerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA8B28A7-44A8-C9F0-B918-0A93B0455F41}|HostelMaintenanceAPI.csproj|solutionrelative:models\\maintenancerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA8B28A7-44A8-C9F0-B918-0A93B0455F41}|HostelMaintenanceAPI.csproj|c:\\users\\new\\documents\\hostelmaintenanceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA8B28A7-44A8-C9F0-B918-0A93B0455F41}|HostelMaintenanceAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA8B28A7-44A8-C9F0-B918-0A93B0455F41}|HostelMaintenanceAPI.csproj|c:\\users\\new\\documents\\hostelmaintenanceapi\\appsettings.json||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EA8B28A7-44A8-C9F0-B918-0A93B0455F41}|HostelMaintenanceAPI.csproj|solutionrelative:appsettings.json||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA8B28A7-44A8-C9F0-B918-0A93B0455F41}|HostelMaintenanceAPI.csproj|c:\\users\\new\\documents\\hostelmaintenanceapi\\properties\\launchsettings.json||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EA8B28A7-44A8-C9F0-B918-0A93B0455F41}|HostelMaintenanceAPI.csproj|solutionrelative:properties\\launchsettings.json||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA8B28A7-44A8-C9F0-B918-0A93B0455F41}|HostelMaintenanceAPI.csproj|c:\\users\\new\\documents\\hostelmaintenanceapi\\hostelmaintenanceapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{EA8B28A7-44A8-C9F0-B918-0A93B0455F41}|HostelMaintenanceAPI.csproj|solutionrelative:hostelmaintenanceapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250510051921_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\New\\Documents\\HostelMaintenanceAPI\\Migrations\\20250510051921_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250510051921_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\New\\Documents\\HostelMaintenanceAPI\\Migrations\\20250510051921_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20250510051921_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T05:19:22.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\New\\Documents\\HostelMaintenanceAPI\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\New\\Documents\\HostelMaintenanceAPI\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T04:42:53.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MaintenanceRequest.cs",
+              "DocumentMoniker": "C:\\Users\\New\\Documents\\HostelMaintenanceAPI\\Models\\MaintenanceRequest.cs",
+              "RelativeDocumentMoniker": "Models\\MaintenanceRequest.cs",
+              "ToolTip": "C:\\Users\\New\\Documents\\HostelMaintenanceAPI\\Models\\MaintenanceRequest.cs",
+              "RelativeToolTip": "Models\\MaintenanceRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T04:32:14.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\New\\Documents\\HostelMaintenanceAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\New\\Documents\\HostelMaintenanceAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T06:31:15.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\New\\Documents\\HostelMaintenanceAPI\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Models\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\New\\Documents\\HostelMaintenanceAPI\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "Models\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T06:28:50.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\New\\Documents\\HostelMaintenanceAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\New\\Documents\\HostelMaintenanceAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-01T04:18:01.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\New\\Documents\\HostelMaintenanceAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\New\\Documents\\HostelMaintenanceAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T04:20:54.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HostelMaintenanceAPI",
+              "DocumentMoniker": "C:\\Users\\New\\Documents\\HostelMaintenanceAPI\\HostelMaintenanceAPI.csproj",
+              "RelativeDocumentMoniker": "HostelMaintenanceAPI.csproj",
+              "ToolTip": "C:\\Users\\New\\Documents\\HostelMaintenanceAPI\\HostelMaintenanceAPI.csproj",
+              "RelativeToolTip": "HostelMaintenanceAPI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-01T06:41:21.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\New\\Documents\\HostelMaintenanceAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\New\\Documents\\HostelMaintenanceAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-02T04:11:41.981Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

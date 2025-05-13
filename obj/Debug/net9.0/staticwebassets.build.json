@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "u7iMbNP6Q1EC4kLNgFB9hJIRCMSVHgHSV4t3pHCXh0k=",
+  "Source": "HostelMaintenanceAPI",
+  "BasePath": "_content/HostelMaintenanceAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
