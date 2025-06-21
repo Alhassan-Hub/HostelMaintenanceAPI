@@ -1,0 +1,20 @@
+body {
+    background-color: #f4f6f8 !important;
+}
+
+.swagger-ui .topbar {
+    background-color: #003366 !important;
+}
+
+.swagger-ui .topbar-wrapper .link span {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.swagger-ui .scheme-container {
+    background-color: #ffffff;
+}
+
+.swagger-ui .info {
+    margin: 20px 0;
+}

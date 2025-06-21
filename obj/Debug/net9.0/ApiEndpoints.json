@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "HostelMaintenanceAPI.Controllers.AuthController",
+    "Method": "AdminLogin",
+    "RelativePath": "api/Auth/adminlogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "HostelMaintenanceAPI.Models.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelMaintenanceAPI.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",
     "HttpMethod": "POST",
@@ -17,6 +33,22 @@
   },
   {
     "ContainingType": "HostelMaintenanceAPI.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "HostelMaintenanceAPI.Models.DTOs.RegisterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelMaintenanceAPI.Controllers.AuthController",
     "Method": "GetSecureData",
     "RelativePath": "api/Auth/secure",
     "HttpMethod": "GET",
@@ -24,5 +56,206 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelMaintenanceAPI.Controllers.MaintenanceRequestsController",
+    "Method": "GetAllRequests",
+    "RelativePath": "api/MaintenanceRequests",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HostelMaintenanceAPI.Models.MaintenanceRequest, HostelMaintenanceAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Admin"
+    ]
+  },
+  {
+    "ContainingType": "HostelMaintenanceAPI.Controllers.MaintenanceRequestsController",
+    "Method": "AdminDeleteRequest",
+    "RelativePath": "api/MaintenanceRequests/admin-delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "Tags": [
+      "Admin"
+    ]
+  },
+  {
+    "ContainingType": "HostelMaintenanceAPI.Controllers.MaintenanceRequestsController",
+    "Method": "FilterByBlock",
+    "RelativePath": "api/MaintenanceRequests/FilterByBlock/{block}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "block",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HostelMaintenanceAPI.Models.MaintenanceRequest, HostelMaintenanceAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Admin"
+    ]
+  },
+  {
+    "ContainingType": "HostelMaintenanceAPI.Controllers.MaintenanceRequestsController",
+    "Method": "FilterByYear",
+    "RelativePath": "api/MaintenanceRequests/FilterByYear/{year}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "year",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HostelMaintenanceAPI.Models.MaintenanceRequest, HostelMaintenanceAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Admin"
+    ]
+  },
+  {
+    "ContainingType": "HostelMaintenanceAPI.Controllers.MaintenanceRequestsController",
+    "Method": "GetMyRequests",
+    "RelativePath": "api/MaintenanceRequests/MyRequests/{studentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HostelMaintenanceAPI.DTOs.MaintenanceRequestDto, HostelMaintenanceAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Student"
+    ]
+  },
+  {
+    "ContainingType": "HostelMaintenanceAPI.Controllers.MaintenanceRequestsController",
+    "Method": "StudentDeleteRequest",
+    "RelativePath": "api/MaintenanceRequests/student-delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "Tags": [
+      "Student"
+    ]
+  },
+  {
+    "ContainingType": "HostelMaintenanceAPI.Controllers.MaintenanceRequestsController",
+    "Method": "UpdateRequestStatus",
+    "RelativePath": "api/MaintenanceRequests/UpdateStatus/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "HostelMaintenanceAPI.DTOs.UpdateStatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "Tags": [
+      "Admin"
+    ]
+  },
+  {
+    "ContainingType": "HostelMaintenanceAPI.Controllers.MaintenanceRequestsController",
+    "Method": "CreateRequestWithImage",
+    "RelativePath": "api/MaintenanceRequests/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RoomNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IssueDescription",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "Tags": [
+      "Student"
+    ]
   }
 ]

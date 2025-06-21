@@ -1,0 +1,3 @@
+wwwroot\swagger-ui\custom.css
+wwwroot\uploads\b59853f5-e46c-44df-8688-4cd9f9c15290.jpg
+C:\Users\New\Documents\HostelMaintenanceAPI\wwwroot\swagger-ui\custom.css
